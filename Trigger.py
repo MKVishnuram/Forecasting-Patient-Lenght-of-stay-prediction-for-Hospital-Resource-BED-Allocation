@@ -1,7 +1,7 @@
 
-##Admission_Trigger
+##Admission_DATA_Trigger
 
-import droptrigger
+
 import mysql.connector
 try:
     # Connect to hospital_db
@@ -49,7 +49,7 @@ finally:
 
 import mysql.connector
 
-import droptrigger
+
 
 try:
     # Connect to hospital_db
@@ -116,7 +116,7 @@ finally:
         hospital_db_conn.close()
 
 
-## PAtient_INFO Trigger
+## PAtient_INFORMATION Trigger
 
 import mysql.connector
 try:
